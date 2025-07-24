@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const webhookUrl = "https://stephen712099.app.n8n.cloud/webhook-test/821db390-cbf5-4093-8827-5caee51b48f4";
+  const webhookUrl = "https://stephen712099.app.n8n.cloud/webhook/821db390-cbf5-4093-8827-5caee51b48f4";
 
   try {
     const n8nRes = await fetch(webhookUrl, {
