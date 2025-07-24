@@ -103,6 +103,8 @@
         
       const response = await fetch('https://machobear.vercel.app/api/proxy');
       const data = await response.json();
+      const rawText = await response.text();
+      console.log("Response text:", rawText);
 
       
        // Clear existing cards
